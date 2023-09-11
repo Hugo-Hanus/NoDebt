@@ -1,0 +1,340 @@
+/*
+--- Couleur ---
+#0093C7  bleu clair
+#0070BA bleu
+#213170 bleu fonce
+#F96E46 orange
+#F9C846 jaune
+#D1495B red
+*/
+/*Balise */
+html {
+    color: #000000;
+    font-family: "Calibri Light";
+    background-color: #F9C846;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header a {
+    color: #0070BA;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/*---HEADER---*/
+/*-Titre-*/
+header div {
+    text-align: center;
+    font-size: 6rem;
+    margin: 2.5%;
+
+}
+
+header div span {
+    color: #213170;
+}
+
+h1 {
+    color: #0093C7;
+    margin: 0.5% 5%;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*--NAV--*/
+header nav {
+    background-color: #FFFFFF;
+    padding: 0;
+    border-top: 0.3rem solid #0070BA;
+    border-bottom: 0.3rem solid #0070BA;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0.5rem;
+    margin: 0;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+li span {
+    color: #0070BA;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+.Connexion {
+    border-top: 0;
+}
+
+/*-----MAIN------*/
+main {
+    background-color: #FFFFFF;
+    border-bottom: 0.3rem solid #0070BA;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+
+/*--FORM---*/
+form {
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    height: 100%;
+    padding: 2rem 5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.25rem;
+}
+
+form input[type=text],
+input[type=submit],
+input[type=reset],
+input[type=range],
+input[type=number],
+input[type=date],
+input[type=email],
+input[type=password],
+input[type=url],
+input[type=datetime-local],
+input[type=file] {
+    width: 20rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0.7rem;
+
+}
+
+select {
+    width: 20rem;
+    height: auto;
+    cursor: pointer;
+    margin: 0.7rem;
+
+}
+
+form button {
+    margin: 2% 30%;
+    width: 30rem;
+    height: 2rem;
+}
+
+textarea {
+    width: 30rem;
+    height: 10rem;
+    cursor: pointer;
+    display: block;
+    margin: 0.7rem;
+}
+
+img {
+    max-width: 30rem;
+    max-height: 30rem;
+}
+
+.Groupe {
+    border: 0.2rem solid #F9C846;
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+
+.Main {
+    flex-direction: row;
+    justify-content: center;
+    overflow: auto;
+}
+
+/*---Class---*/
+.VersPage {
+    border: 0.2rem solid #0070BA;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.7rem;
+    padding: 0rem 3rem;
+}
+
+*>.Recherche {
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    margin: 0%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.Message {
+    border: 0.2rem dotted #C200FB;
+    text-align: center;
+    color: #23643d;
+    font-size: 1.3rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.Annuler {
+    background-color: #d19649;
+}
+
+.Cache {
+    display: none;
+}
+
+.BarreRecherche {
+    margin: 0%;
+}
+
+.Supprimer {
+    font-weight: bold;
+    background-color: #D1495B;
+}
+
+.Total {
+    width: 10%;
+}
+
+/*--Tableau--*/
+.Table {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+
+.TableDate {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0%;
+    margin: 0%;
+    border: solid 1px grey;
+}
+
+.TableDate>li {
+    list-style: none;
+    padding: 0.1rem 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.TableDate>li:nth-child(even) {
+    background-color: #cfcfcf;
+}
+
+.DepenseAdd {
+    color: #1E934D;
+}
+
+.DepenseMinus {
+    color: #d41515;
+}
+
+.ButtonAction {
+    display: flex;
+    background-color: #efefef;
+    margin: 0rem 1rem;
+    padding: 1rem;
+    border: 0.1rem solid #8a8a8a;
+    border-radius: 0.1rem;
+}
+
+.ButtonEdition {
+    display: flex;
+    background-color: #efefef;
+    padding: 0rem 2rem;
+}
+
+.Checkboxing {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column
+}
+
+.Mini>input[type=submit],
+form {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 0.155rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+.Vide {
+    visibility: hidden;
+}
+
+/*--FOOTER--*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9C846;
+    padding: 1rem;
+}
+
+
+
+/*-- HOVER--*/
+
+.Navigation li a:hover {
+    color: #213170;
+    padding: 1rem;
+    background-color: #F9C846;
+    border: 0.05rem solid #0070BA;
+    border-radius: 25%;
+}
+
+.ButtonEdition:hover {
+    background-color: #F9C846;
+    color: #213170;
+}
+
+/*--MEDIA QUARIES--*/
+@media print {
+    nav {
+        display: none;
+    }
+
+    img {
+        display: none;
+    }
+
+    input[type=submit] {
+        display: none;
+    }
+}
